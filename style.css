@@ -15,12 +15,15 @@ h1 {
 h2 
     {
     font-size: 1.5em;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
+    
     }
 
 h3 {
-    font-size: 1em;
+    font-size: 1.5em;
     padding-bottom: 1em;
+    font-style: italic;
+    
     }
     
 main {
@@ -36,10 +39,12 @@ header {
     
 section {
     margin: auto 1em 4em 2em;
+    
     }
     
 i {
     margin-right: .5em;
+    padding-left: 2em;
     }
     
 p {
@@ -60,3 +65,9 @@ h1, h2, h3 {
     #mainLeft {
     border-right: 1px solid lightgray;
     }
+
+    /* Rounded border */
+hr.rounded {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+  }
